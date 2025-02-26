@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #121212;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            max-width: 280px;
+            border-radius: 5px;
+            border: none;
+            background-color: #242424;
+            color: white;
+        }
+        .login-container input:focus {
+            outline: 2px solid #1DB954;
+        }
+        .login-button {
+            background-color: #1DB954;
+            border: none;
+            color: black;
+            padding: 10px;
+            width: 100%;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .login-button:hover {
+            background-color: #18a849;
+        }
+        .forgot-password, .signup {
+            color: #1DB954;
+            text-decoration: none;
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Log In</h2>
+        <input type="text" placeholder="Email or username">
+        <input type="password" placeholder="Password">
+        <button class="login-button">Log In</button>
+        <a href="#" class="forgot-password">Forgot your password?</a>
+        <a href="#" class="signup">Sign up for Spotify</a>
+    </div>
+</body>
+</html>
